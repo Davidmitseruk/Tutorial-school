@@ -1,0 +1,43 @@
+
+.header__list{
+    display: flex;
+    justify-content: space-around;
+}
+.header__link{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+.header__link:hover{
+    color: azure;
+    font-size: 55px;
+}
+body{
+    background-color: rgb(53, 70, 36);
+}
+.header{
+    background-image: url(Cykel-billede.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+.under-title{
+    color: white;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.under-text{
+    color: white;
+    width: 600px;
+    font-size: 20px;
+}
+.section-spilt{
+    display: flex;
+    justify-content: space-around;
+}

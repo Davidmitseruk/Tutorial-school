@@ -1,43 +1,95 @@
 
 .header__list{
-    display: flex;
-    justify-content: space-around;
+    
+    flex-wrap: wrap;
+    width: 300px;
+
 }
 .header__link{
     text-decoration: none;
-    color: white;
-    font-size: 50px;
+    color: black;
+    font-size: 30px;
+    border: 1px solid black;
+    margin: 10px;
+
 }
 .header__link:hover{
-    color: azure;
-    font-size: 55px;
+    color: rgb(66, 66, 66);
 }
-body{
-    background-color: rgb(53, 70, 36);
-}
+
 .header{
-    background-image: url(Cykel-billede.jpg);
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(Cykel-4.jpg); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 1200px;
-    height: 500px;
+    height: 700px;
     margin: 0 auto;
 }
 .under-title{
-    color: white;
-    margin-top: 20px;
+    color: black;
+    margin-top: 40px;
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom:60px;
+    font-size: 50px;
 }
 .under-text{
-    color: white;
-    width: 600px;
+    color: black;
+    width: 400px;
     font-size: 20px;
 }
 .section-spilt{
     display: flex;
     justify-content: space-around;
+}
+.title{
+    color:  rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+    font-size: 100px;
+}
+.lavet{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.er{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer{
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid black;
+    margin-top: 50px;
+}
+.help{
+    margin-bottom: 20px;
+
+}
+.sec-split{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+.randers-tekst{
+    color: black;
+    width: 600px;
+    font-size: 20px;
+}
+.randers-title{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.bremser-text{
+    width: 400px;
 }
